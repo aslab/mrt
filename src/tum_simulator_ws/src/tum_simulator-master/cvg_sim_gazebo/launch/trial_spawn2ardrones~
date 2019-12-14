@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="/use_sim_time" value="true" />
+
+  <!-- start world -->
+  <node name="gazebo" pkg="gazebo" type="gazebo" 
+   args="$(find cvg_sim_gazebo)/worlds/ardrone_testworld.world" respawn="false" output="screen" />
+
+  <!-- start gui -->
+  <node name="gazebo_gui" pkg="gazebo" type="gui" respawn="false" output="screen"/>
+
+  <!-- include our robots -->
+  <include file="$(find your_pkg)/launch/robots.launch"/>
+</launch>

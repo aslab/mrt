@@ -1,0 +1,8 @@
+prefix=/home/jorge/tfm_ws/devel
+
+Name: translator
+Description: Description of translator
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jorge/tfm_ws/devel/lib 
+Requires: 

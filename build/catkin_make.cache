@@ -1,0 +1,2 @@
+amr-ros-config/description:amr-ros-config/gazebo:amr-ros-config/launch:translator:tum_simulator_ws/src/ardrone_autonomy-indigo-devel:tum_simulator_ws/src/tum_simulator-master/cvg_sim_gazebo:tum_simulator_ws/src/tum_simulator-master/cvg_sim_gazebo_plugins:tum_simulator_ws/src/tum_simulator-master/cvg_sim_msgs:tum_simulator_ws/src/tum_simulator-master/message_to_tf:tum_simulator_ws/src/tum_simulator-master/tum_simulator
+-DCATKIN_DEVEL_PREFIX=/home/jorge/tfm_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jorge/tfm_ws/install -G Unix Makefiles
